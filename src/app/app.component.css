@@ -1,1 +1,35 @@
+.projects-container, .skills-container {
+  width: 100%; /* Ensure the container spans the entire width */
+  display: flex;
+  align-items: center;
+  margin: 0.5em;
+}
+
+.projects, .skills {
+  display: inline-block;
+  position: relative;
+}
+
+
+.projects::after, .skills::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100vw;
+  height: 1px;
+  background-color: var(--emphasis-text); /* Replace with your desired color */
+}
+
+.projects-container-items{
+  margin: 1em;
+  display: flex;
+  flex: 1;
+}
+
+.projects-container-items > * {
+  margin-left: 1em;
+}
 

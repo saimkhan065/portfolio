@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  flex: 1;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--primary-text);
+}
+
+.navbar-headings {
+  flex: 2;
+  text-align: right;
+}
+
+.nav-heading {
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+  color: var(--secondary-text);
+}
+
+.nav-heading:hover {
+  color: #ff6600;
+}
+
+.hash-color{
+  color: var(--emphasis-text);
+}

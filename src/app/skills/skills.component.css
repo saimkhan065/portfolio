@@ -1,0 +1,41 @@
+table{
+  border: 2px solid var(--secondary-text);
+}
+
+th{
+  text-align: left;
+  padding: 0.5em;
+}
+
+td{
+  padding-top: 0.5em;
+  border-top: 1px solid var(--secondary-text);
+}
+
+.skills-container{
+  display: flex;
+  flex: 1;
+  margin: 1em;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  color: var(--secondary-text);
+}
+
+.skills-list li {
+  box-sizing: border-box; /* Include border and padding in width calculation */
+}
+
+.skills-list li:nth-child(3n) {
+  margin-right: 0; /* Remove right margin for the last item in each row */
+}
+
+.skills-container > *{
+  margin-left: 0.5em;
+}
+
+
