@@ -15,7 +15,8 @@ export class Project1ProductWorldComponent {
   openQuickView(): void {
 
     const dialogRef = this.dialog.open(Project1DemoComponent, {
-      width: '800px', // Adjust the width as needed
+      width: '100vw',
+      height: '100vh',// Adjust the width as needed
       data: {title: 'ProductWorld',
         motivation: 'WPF App that connects to a Product Database and' +
           ' provides GUI based functionalities to user.',
