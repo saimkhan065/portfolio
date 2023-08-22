@@ -23,4 +23,28 @@ body{
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Fira Code", sans-serif }
+
+video{
+  height: 32vh;
+  width: 32vw;
+  object-fit: fill;
+}
+
+.container, .container-project2, .container-project4{
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.button-play{
+  background: var(--emphasis-text);
+  color: var(--primary-text);
+  height: 100%;
+  width: 100%;
+}
+
+.project1-container__name, .project2-container__name{
+  height: 5em;
+}
+

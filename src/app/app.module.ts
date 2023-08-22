@@ -12,6 +12,8 @@ import {RouterLink, Routes, RouterModule} from "@angular/router";
 import {Project1DemoComponent} from "./projects/project1-demo/project1-demo.component";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from "@angular/material/dialog";
+import { Project3GradeManagementCComponent } from './project3-grade-management-c/project3-grade-management-c.component';
+import { Project4BalanceParanthesisCComponent } from './project4-balance-paranthesis-c/project4-balance-paranthesis-c.component';
 
 const routes: Routes = [
   {path: '', component: AppComponent},
@@ -27,7 +29,9 @@ const routes: Routes = [
     QuoteComponent,
     SkillsComponent,
     Project1ProductWorldComponent,
-    Project2DotaTrackerComponent
+    Project2DotaTrackerComponent,
+    Project3GradeManagementCComponent,
+    Project4BalanceParanthesisCComponent
   ],
   imports: [
     BrowserModule,

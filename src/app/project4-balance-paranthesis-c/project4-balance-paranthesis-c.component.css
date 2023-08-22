@@ -1,0 +1,14 @@
+.project1-container{
+  border: 1px solid var(--secondary-text);
+  width: 160px;
+}
+
+.project1-container > *{
+  border: 1px solid var(--secondary-text);
+  color: var(--secondary-text);
+  padding: 0.2em;
+}
+
+.project1-container__name{
+  color: var(--primary-text);
+}

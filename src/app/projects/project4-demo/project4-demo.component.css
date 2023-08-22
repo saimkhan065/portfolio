@@ -1,0 +1,19 @@
+.container-project4{
+  height: 100vh;
+  width: 100vw;
+  background: var(--background-color);
+  text-align: center;
+  padding: 0.5em;
+  overflow-x: hidden;
+}
+
+.container-project4 > *{
+  padding-bottom: 0.5em;
+}
+
+.video {
+  text-align: center;
+}
+
+
+
