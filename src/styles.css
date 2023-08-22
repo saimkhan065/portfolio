@@ -48,3 +48,7 @@ video{
   height: 5em;
 }
 
+li{
+  color: var(--emphasis-text);
+}
+
