@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from "@angular/material/dialog";
 
 const routes: Routes = [
+  {path: '', component: AppComponent},
   { path: 'project1-demo', component: Project1DemoComponent}
 
 ];
