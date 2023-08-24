@@ -16,6 +16,7 @@ td{
   display: flex;
   flex: 1;
   margin: 1em;
+  flex-wrap: wrap;
 }
 
 .skills-list {

@@ -24,8 +24,8 @@ export class Project4BalanceParanthesisCComponent {
         title: 'Balanced Parenthesis Check',
         motivation: 'C program that uses stack to check whether an' +
           ' expression is balanced or not. ',
-        videoURL: 'assets/videos/BalancingParanthesisWithStackCDemo.mp4',
-        thumbnailURL: 'assets/images/CProjectsThumbnail.png'
+        videoURL: '/assets/videos/BalancingParanthesisWithStackCDemo.mp4',
+        thumbnailURL: '/assets/images/CProjectsThumbnail.png'
       } // You can pass any data to the modal
       // component
     });

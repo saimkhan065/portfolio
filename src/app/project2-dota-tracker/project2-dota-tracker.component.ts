@@ -23,7 +23,10 @@ export class Project2DotaTrackerComponent {
       data: {title: 'Dota 2 Tracker',
         motivation: 'JavaFX GUI App Tracker which I used to track my' +
           ' performance in Dota 2 games.',
-        videoURL: 'assets/videos/Dota2TrackerDemo.mp4'
+        videoURL: '/assets/videos/Dota2TrackerDemo.mp4',
+        description: 'A GUI app built with JavaFX to track DOTA 2 esports' +
+          ' games. Tracker lets user perform CRUD operations and save their' +
+          ' data in a text file.'
       } // You can pass any data to the modal
       // component
     });

@@ -1,6 +1,7 @@
 .project1-container{
   border: 1px solid var(--secondary-text);
   width: 160px;
+  overflow-x: hidden;
 
 }
 

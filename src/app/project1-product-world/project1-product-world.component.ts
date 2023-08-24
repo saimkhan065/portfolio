@@ -20,7 +20,11 @@ export class Project1ProductWorldComponent {
       data: {title: 'ProductWorld',
         motivation: 'WPF App that connects to a Product Database and' +
           ' provides GUI based functionalities to user.',
-        videoURL: 'assets/videos/ProductWorldDemo.mp4'
+        videoURL: '/assets/videos/ProductWorldDemo.mp4',
+        description: 'WPF app with MVVM architecture, front end written using ' +
+          'XAML and c# code behind. App connects to a local products database' +
+          'and allows user CRUD operations on the database with a GUI' +
+          ' interface.'
       } // You can pass any data to the modal
       // component
     });

@@ -1,13 +1,22 @@
 .projects-container, .skills-container {
   width: 100%; /* Ensure the container spans the entire width */
   display: flex;
-  align-items: center;
   margin: 0.5em;
+  flex-wrap: wrap;
 }
 
 .projects, .skills {
+
   display: inline-block;
   position: relative;
+}
+
+.projects{
+
+}
+
+.skills{
+
 }
 
 
@@ -26,6 +35,8 @@
 .projects-container-items{
   margin: 1em;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   flex: 1;
 }
 
@@ -33,3 +44,22 @@
   margin-left: 1em;
 }
 
+.skills-table{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 750px){
+  .projects-container-items > div{
+    margin-left: 30.33vw;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  .skills-table > div {
+    margin-left: 30.33vw;
+    justify-content: center;
+    width: 100%;
+  }
+}

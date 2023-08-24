@@ -27,7 +27,7 @@ export class Project3GradeManagementCComponent {
         motivation: 'A handy grade management system I use to store, manage' +
           ' my grades' +
           'and calculate term GPA ',
-        videoURL: 'assets/videos/GradesManagementCDemo.mp4'
+        videoURL: '/assets/videos/GradesManagementCDemo.mp4'
       } // You can pass any data to the modal
       // component
     });

@@ -15,11 +15,11 @@ import { MatDialogModule } from "@angular/material/dialog";
 import { Project3GradeManagementCComponent } from './project3-grade-management-c/project3-grade-management-c.component';
 import { Project4BalanceParanthesisCComponent } from './project4-balance-paranthesis-c/project4-balance-paranthesis-c.component';
 
-const routes: Routes = [
-  {path: '', component: AppComponent},
-  { path: 'project1-demo', component: Project1DemoComponent}
-
-];
+// const routes: Routes = [
+//   {path: '', component: AppComponent},
+//   { path: 'project1-demo', component: Project1DemoComponent}
+//
+// ];
 
 @NgModule({
   declarations: [
@@ -36,8 +36,8 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     ProjectsModule,
-    RouterLink,
-    RouterModule.forRoot(routes),
+    // RouterLink,
+    // RouterModule.forRoot(routes),
     BrowserAnimationsModule,
     MatDialogModule
   ],
